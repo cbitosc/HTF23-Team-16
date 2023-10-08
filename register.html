@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register_style.css">
+ 
+</head>
+<body>
+    <div class="container">
+        <h1>Sign In</h1>
+        <form action="authenticate.html">
+            <label for="clubName">Club Name:</label>
+            <input type="text" id="clubName" name="clubName" required>
+
+            <label for="socialMedia">Social Media:</label>
+            <select id="socialMedia" name="socialMedia" required>
+                <option value="">     </option>
+                <option value="linkedin">LinkedIn</option>
+                <option value="instagram">Instagram</option>
+                <option value="facebook">Facebook</option>
+            </select>
+
+            <label for="Enter of socialmedia">Enter social media Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>
